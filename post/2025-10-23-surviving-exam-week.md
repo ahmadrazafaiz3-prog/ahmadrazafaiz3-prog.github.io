@@ -25,3 +25,11 @@ By the time exam week ended, I had survived it, but "surviving" is not the same 
 The lesson I am taking forward, and writing down here mostly to hold myself accountable, is straightforward: consistent, smaller efforts spread across the semester are far more sustainable and effective than concentrated panic at the end. I plan to treat the lighter weeks of next semester as preparation time rather than rest time, at least when it comes to reviewing material rather than completing new assignments.
 
 This post closes out the chapter of my semester focused on Python and general coursework. The next post begins a new thread entirely, documenting my experience with Database Systems under Dr. Bilal Ahmad, starting with the foundational ideas of keys and database organization before moving into ER modeling and SQL.
+References and Professional Profiles
+
+Dr. Bilal Ahmad (Professor, UET Lahore Faisalabad Campus)
+
+[LinkedIn: ](https://www.linkedin.com/in/drbilalphd/)
+[Google Scholar:]( https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en)
+[Facebook:]( https://www.facebook.com/Dr.BilalAhm)
+
