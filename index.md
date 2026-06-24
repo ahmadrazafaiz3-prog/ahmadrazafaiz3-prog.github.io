@@ -17,8 +17,9 @@ I created this portfolio blog following the advice of Dr. Bilal Ahmad to build a
 
 ![GitHub Work](/assets/images/github-work.jpg)
 
+Welcome to my Computer Engineering journey.
+
 {% for post in site.posts %}
 
-* [{{ post.title }}]({{ post.url }})
-  {% endfor %}
-
+[{{ post.title }}]({{ post.url }})
+{% endfor %}
