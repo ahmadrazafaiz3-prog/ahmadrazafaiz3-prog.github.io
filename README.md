@@ -1,0 +1,15 @@
+# Ahmad Raza's Engineering Journey
+
+Welcome to my personal portfolio blog website. I am a Computer Engineering student at UET Faisalabad. This website serves as my digital footprint where I document my academic journey, learning experiences, projects, and lessons learned throughout my university life. The idea of creating this blog was inspired by my professor, Dr. Bilal Ahmad, who encouraged students to maintain a professional online presence and continuously share their learning experiences.
+
+![GitHub Portfolio Website](/assets/images/github-work.jpg)
+
+Throughout this semester, I learned that engineering is not only about attending lectures and passing exams. It is about documenting knowledge, solving real-world problems, and continuously improving technical and communication skills. Through this blog, I aim to share my experiences in Programming Fundamentals, Database Systems, laboratory work, examinations, and personal projects. Writing these posts helps me reflect on what I have learned and preserve valuable lessons for the future.
+
+![Database Systems Learning](/assets/images/database-lab.jpg)
+
+One of the most memorable parts of this semester was studying Database Systems. We completed three quizzes, a midterm examination, a final examination, several laboratory manuals, and an open-handed laboratory assessment. Before the midterm, we focused on ER modeling, keys, relationships, and SQL queries. After the midterm, we moved toward normalization, relational algebra, and more advanced database concepts. These experiences strengthened my understanding of data organization and management.
+
+![University Study Experience](/assets/images/my-study-picture.jpg)
+
+The final weeks of the semester were particularly challenging. Multiple assignments, quizzes, and exam preparations had to be managed simultaneously. Although the workload was difficult, it taught me the importance of planning, consistency, and time management. Looking back, these experiences helped me grow both academically and personally. Through this blog, I hope to continue documenting my journey as a Computer Engineering student and share insights that may help other students facing similar challenges.
