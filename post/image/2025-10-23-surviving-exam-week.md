@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Surviving Exam Week: The Lesson I Learned the Hard Way"
-date: 2026-01-23 09:00:00 +0500
+date: 2025-10-23 09:00:00 +0500
 categories: [reflection, semester-1]
 tags: [reflection, semester-1]
 ---
