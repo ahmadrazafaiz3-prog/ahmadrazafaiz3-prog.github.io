@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My First Steps Into Python: How a Computer Engineering Student Found His Footing"
-date: 2026-01-05 09:00:00 +0500
+date: 2025-08-05 09:00:00 +0500
 categories: [python, semester-1]
 tags: [python, semester-1]
 ---
