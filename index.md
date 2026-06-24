@@ -27,9 +27,6 @@ One of the most memorable parts of this semester was studying Database Systems. 
 
 University Study Experience
 
-The final weeks of the semester were particularly challenging. Multiple assignments, quizzes, and exam preparations had to be managed simultaneously. Although the workload was difficult, it taught me the importance of planning, consistency, and time management. Looking back, these experiences helped me grow both academically and personally. Through this blog, I hope to continue documenting my journey as a Computer Engineering student and share insights that may help other students facing similar challenges.
----
-
 {% for post in site.posts %}
 
 * [{{ post.title }}]({{ post.url }})
