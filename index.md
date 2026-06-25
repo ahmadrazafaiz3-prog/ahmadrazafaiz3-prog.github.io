@@ -20,43 +20,6 @@ I created this portfolio blog following the advice of Dr. Bilal Ahmad to build a
 ![First Day at UET Faisalabad](https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80)
 Welcome to my Computer Engineering journey.
 
-
----
-layout: default
-title: Home
----
-
-<style>
-  :root {
-    --primary-color: #6c63ff;
-    --dark-blue: #1e1b4b;
-    --text-main: #2a2a45;
-    --text-muted: #555566;
-    --light-bg: #f6f7fb;
-    --border-color: #e6e6ef;
-  }
-  .intro {
-    max-width: 760px;
-    margin: 0 auto 3rem auto;
-    text-align: center;
-    padding: 0 1rem;
-  }
-
-  .intro h2 {
-    font-size: 1.8rem;
-    color: var(--dark-blue);
-    margin-bottom: 0.8rem;
-    font-weight: 700;
-  }
-
-  .intro p {
-    color: var(--text-muted);
-    font-size: 1.05rem;
-    line-height: 1.65;
-  }
-
-  /* Redesigned Mentor Card with Your Provided Image Embedded */
- 
     align-items: center;
   }
 
