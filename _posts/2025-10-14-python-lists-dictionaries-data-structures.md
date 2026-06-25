@@ -1,12 +1,17 @@
 ---
 layout: post
 title: "Lists, Dictionaries, and the Moment My Code Started Looking Organized"
-date: 2025-09-14 09:00:00 +0500
+date: 2026-01-14 09:00:00 +0500
 categories: [python, semester-1]
 tags: [python, semester-1]
 ---
 
-![List vs dictionary vs nested records diagram](/images/post3-data-structures.svg)
+![List vs dictionary vs nested records diagram]({{ "/images/post3-data-structures.svg" | relative_url }})
+
+> **About the mentor referenced in this post:** Dr. Bilal Ahmad is a Professor at UET Lahore, Faisalabad Campus, and an expert in Artificial Intelligence, Machine Learning, and Deep Learning model training. His name is mentioned throughout this series as he was the instructor who guided and inspired this coursework.
+>
+> [LinkedIn](https://www.linkedin.com/in/drbilalphd/) · [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) · [Facebook](https://www.facebook.com/Dr.BilalAhm)
+
 
 There is a specific moment in every beginner programmer's journey when scattered variables stop feeling manageable and you realize you desperately need a better way to organize data. For me, that moment arrived right around the time we started working with lists, tuples, dictionaries, and sets in Python. This part of the semester completely changed how I approached every assignment that came after it.
 
@@ -25,22 +30,3 @@ By the time this section of the course wrapped up, my assignments looked noticea
 This stage of the semester also reinforced something Dr. Bilal Ahmad said more than once in class, that the way you structure your data determines how easy or painful everything that comes after will be. At the time it sounded like a small piece of advice. Looking back now, after struggling through assignments where I structured data poorly and assignments where I structured it well, I understand exactly how true that statement is.
 
 The next post in this series moves into object-oriented programming, where I started learning to think not just about organizing data, but about organizing entire pieces of logic into reusable, self-contained units.
-Dr. Bilal Ahmad (Professor, UET Lahore Faisalabad Campus)
-
-[LinkedIn:]( https://www.linkedin.com/in/drbilalphd/)
-[Google Scholar:](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en)
-[Facebook:](https://www.facebook.com/Dr.BilalAhm)
-Tags
-
-#ComputerEngineering
-#ProgrammingFundamentals
-#DatabaseSystems
-#PythonProgramming
-#ERModeling
-#SQLQueries
-#Normalization
-#RelationalAlgebra
-#UETFaisalabad
-#DrBilalAhmad
-#LearningJourney
-#GitHubPortfolio
