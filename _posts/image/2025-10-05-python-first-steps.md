@@ -1,12 +1,17 @@
 ---
 layout: post
 title: "My First Steps Into Python: How a Computer Engineering Student Found His Footing"
-date: 2025-08-05 09:00:00 +0500
+date: 2026-01-05 09:00:00 +0500
 categories: [python, semester-1]
 tags: [python, semester-1]
 ---
 
-![My first Python script running in the editor](/images/post1-python-first-steps.svg)
+![My first Python script running in the editor]({{ "/images/post1-python-first-steps.svg" | relative_url }})
+
+> **About the mentor referenced in this post:** Dr. Bilal Ahmad is a Professor at UET Lahore, Faisalabad Campus, and an expert in Artificial Intelligence, Machine Learning, and Deep Learning model training. His name is mentioned throughout this series as he was the instructor who guided and inspired this coursework.
+>
+> [LinkedIn](https://www.linkedin.com/in/drbilalphd/) · [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) · [Facebook](https://www.facebook.com/Dr.BilalAhm)
+
 
 When I started my Computer Engineering degree at UET Lahore, Faisalabad Campus, I honestly thought programming would feel like an extension of the math I already knew. Python had other plans for me. It was the first real programming language I touched in a structured classroom setting, and looking back now that the semester is over, I can say it reshaped how I think about solving problems, not just how I write code.
 
