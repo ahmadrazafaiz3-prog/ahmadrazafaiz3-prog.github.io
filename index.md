@@ -21,8 +21,7 @@ I created this portfolio blog following the advice of Dr. Bilal Ahmad to build a
 Welcome to my Computer Engineering journey.
 
 
-
- ---
+---
 layout: default
 title: Home
 ---
@@ -43,7 +42,7 @@ title: Home
     margin: -2rem -2rem 3rem -2rem;
     height: 320px;
     background: linear-gradient(135deg, rgba(30, 27, 75, 0.9) 0%, rgba(108, 99, 255, 0.75) 100%), 
-                url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80');
+               <img class="mentor-avatar" src="{{ '/assets/images/dr-bilal-ahmad.png' | relative_url }}" alt="Dr. Bilal Ahmad">
     background-size: cover;
     background-position: center;
     display: flex;
@@ -282,10 +281,30 @@ title: Home
 </div>
 
 <h3 class="section-title">Latest Posts</h3>
-<div class="post-grid">
+
+<div style="max-width:900px;margin:0 auto 4rem auto;">
   {% for post in site.posts %}
-  <a class="post-card" href="{{ post.url | relative_url }}">
-    {% if post.image %}
-    <div class="thumb">
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-    </div>
+  <div style="
+      background:#fff;
+      border:1px solid #e6e6ef;
+      border-radius:12px;
+      padding:20px;
+      margin-bottom:15px;
+      transition:0.2s;">
+      
+      <a href="{{ post.url | relative_url }}"
+         style="text-decoration:none;color:#1e1b4b;">
+         
+         <h3 style="margin:0 0 10px 0;">
+           {{ post.title }}
+         </h3>
+
+         <p style="margin:0;color:#666;">
+           📅 {{ post.date | date: "%B %-d, %Y" }}
+         </p>
+
+      </a>
+  </div>
+  {% endfor %}
+</div>
+
