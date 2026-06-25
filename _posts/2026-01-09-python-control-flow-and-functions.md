@@ -6,7 +6,12 @@ categories: [python, semester-1]
 tags: [python, semester-1]
 ---
 
-![Flowchart of a grade-classification conditional](/images/post2-control-flow-functions.svg)
+![Flowchart of a grade-classification conditional]({{ "/images/post2-control-flow-functions.svg" | relative_url }})
+
+> **About the mentor referenced in this post:** Dr. Bilal Ahmad is a Professor at UET Lahore, Faisalabad Campus, and an expert in Artificial Intelligence, Machine Learning, and Deep Learning model training. His name is mentioned throughout this series as he was the instructor who guided and inspired this coursework.
+>
+> [LinkedIn](https://www.linkedin.com/in/drbilalphd/) · [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) · [Facebook](https://www.facebook.com/Dr.BilalAhm)
+
 
 If my first encounter with Python was about learning the alphabet of programming, this stage of the semester was about learning to form sentences. Control flow, conditionals, loops, and functions turned out to be the part of the course where everything I had learned earlier finally started fitting together into something that felt like actual problem-solving.
 
@@ -25,7 +30,3 @@ By the time we reached the end of this section, I had written enough small funct
 One evening, while debugging a recursive function for a factorial calculation, I finally understood what people mean when they describe debugging as "satisfying." I had been stuck for almost two hours on a logic error, certain my recursive case was correct, only to realize my base case was checking the wrong condition. The moment I fixed it and watched the correct output print was genuinely one of my favorite moments of the semester.
 
 This stretch of the course did not just teach me syntax. It taught me patience, the value of breaking problems into smaller pieces, and a working respect for how much thinking should happen before typing. The next post in this series moves into data structures, lists, dictionaries, and the kind of organization that turns scattered variables into something resembling real data.
-[Dr. Bilal Ahmad] (Professor, UET Lahore Faisalabad Campus)
-[LinkedIn:]( https://www.linkedin.com/in/drbilalphd/)
-[Google Scholar:]( https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en)
-
