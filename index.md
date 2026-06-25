@@ -234,7 +234,7 @@ title: Home
 </div>
 
 <div class="mentor-card">
-  <img class="mentor-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&h=256&q=80" alt="Dr. Bilal Ahmad">
+<img class="mentor-avatar" src="{{ '/assets/images/dr-bilal-ahmad.png' | relative_url }}" alt="Dr. Bilal Ahmad">
   <div class="mentor-content">
     <h4>Academic Mentor</h4>
     <h3>Dr. Bilal Ahmad</h3>
