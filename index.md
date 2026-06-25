@@ -35,39 +35,6 @@ title: Home
     --light-bg: #f6f7fb;
     --border-color: #e6e6ef;
   }
-
-  /* Premium Banner Header */
-  .hero {
-    position: relative;
-    margin: -2rem -2rem 3rem -2rem;
-    height: 320px;
-    background: linear-gradient(135deg, rgba(30, 27, 75, 0.9) 0%, rgba(108, 99, 255, 0.75) 100%), 
-               <img class="mentor-avatar" src="{{ '/assets/images/dr-bilal-ahmad.png' | relative_url }}" alt="Dr. Bilal Ahmad">
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  }
-
-  .hero-text h1 {
-    color: #ffffff;
-    font-size: 2.8rem;
-    font-weight: 800;
-    margin: 0 0 0.5rem 0;
-    letter-spacing: -0.03em;
-  }
-
-  .hero-text p {
-    color: #e2e8f0;
-    font-size: 1.2rem;
-    margin: 0;
-    font-weight: 300;
-  }
-
-  /* Intro Formatting */
   .intro {
     max-width: 760px;
     margin: 0 auto 3rem auto;
@@ -280,31 +247,6 @@ title: Home
   </div>
 </div>
 
-<h3 class="section-title">Latest Posts</h3>
 
-<div style="max-width:900px;margin:0 auto 4rem auto;">
-  {% for post in site.posts %}
-  <div style="
-      background:#fff;
-      border:1px solid #e6e6ef;
-      border-radius:12px;
-      padding:20px;
-      margin-bottom:15px;
-      transition:0.2s;">
-      
-      <a href="{{ post.url | relative_url }}"
-         style="text-decoration:none;color:#1e1b4b;">
-         
-         <h3 style="margin:0 0 10px 0;">
-           {{ post.title }}
-         </h3>
-
-         <p style="margin:0;color:#666;">
-           📅 {{ post.date | date: "%B %-d, %Y" }}
-         </p>
-
-      </a>
-  </div>
-  {% endfor %}
 </div>
 
