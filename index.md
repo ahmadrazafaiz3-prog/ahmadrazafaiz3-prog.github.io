@@ -18,7 +18,9 @@ I created this portfolio blog following the advice of Dr. Bilal Ahmad to build a
 ![GitHub Work](/assets/images/github-work.jpg)
 
 ![First Day at UET Faisalabad](https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80)
-Welcome to my Computer Engineering journey.
+
+
+
 
 
 
@@ -86,6 +88,7 @@ Welcome to my Computer Engineering journey.
 <div class="hero">
   <img src="{{ '/images/hero-banner.svg' | relative_url }}" alt="Ahmad Raza Blog Banner">
 </div>
+
 
 
 <div class="mentor-card">
