@@ -38,4 +38,4 @@ This blog documents my learning journey as a Computer Engineering student. The e
 [* Google Scholar:]( https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en)
 [* Facebook:]( https://www.facebook.com/Dr.BilalAhm)
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/assets/images/uet-first-day.jpg" alt="UET Faisalabad First Day" width="100%">
+![University Life Illustration](https://undraw.co/api/images/illustrations/passing_by.svg)
