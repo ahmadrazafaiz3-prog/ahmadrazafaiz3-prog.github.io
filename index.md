@@ -56,56 +56,12 @@ title: Home
   }
 
   /* Redesigned Mentor Card with Your Provided Image Embedded */
-  .mentor-card {
-    max-width: 760px;
-    margin: 0 auto 4rem auto;
-    background: #ffffff;
-    border: 1px solid var(--border-color);
-    border-radius: 14px;
-    padding: 1.8rem;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.02);
-    display: flex;
-    gap: 1.5rem;
+ 
     align-items: center;
   }
 
-  .mentor-avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid var(--primary-color);
-    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.15);
-    flex-shrink: 0;
-  }
-
-  .mentor-content {
-    flex-grow: 1;
-  }
-
-  .mentor-content h4 {
-    margin: 0 0 0.3rem 0;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    color: var(--primary-color);
-    letter-spacing: 0.05em;
-    font-weight: 700;
-  }
-
-  .mentor-content h3 {
-    margin: 0 0 0.6rem 0;
-    font-size: 1.35rem;
-    color: var(--dark-blue);
-  }
-
-  .mentor-content p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin: 0 0 1rem 0;
-  }
-
-  .mentor-card .links a {
+ 
+.mentor-card .links a {
     margin-right: 14px;
     font-size: 0.9rem;
     font-weight: 600;
