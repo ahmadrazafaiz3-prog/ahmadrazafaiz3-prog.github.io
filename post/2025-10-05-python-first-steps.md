@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "My First Steps Into Python: How a Computer Engineering Student Found His Footing"
-date: 2026-01-05 09:00:00 +0500
+date: 2025-10-05 09:00:00 +0500
 categories: [python, semester-1]
 tags: [python, semester-1]
 ---
 
-![My first Python script running in the editor]({{ "/images/post1-python-first-steps.svg" | relative_url }})
+[My first Python script running in the editor] (/images/post1-python-first-steps.svg" | relative_url)
 
 > **About the mentor referenced in this post:** Dr. Bilal Ahmad is a Professor at UET Lahore, Faisalabad Campus, and an expert in Artificial Intelligence, Machine Learning, and Deep Learning model training. His name is mentioned throughout this series as he was the instructor who guided and inspired this coursework.
 >
