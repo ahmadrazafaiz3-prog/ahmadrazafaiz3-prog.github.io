@@ -1,12 +1,17 @@
 ---
 layout: post
 title: "Classes, Objects, and Thinking in Blueprints"
-date: 2025-09-19 09:00:00 +0500
+date: 2026-01-19 09:00:00 +0500
 categories: [python, semester-1]
 tags: [python, semester-1]
 ---
 
-![Vehicle, Car, and Bike class inheritance diagram](/images/post4-oop-basics.svg)
+![Vehicle, Car, and Bike class inheritance diagram]({{ "/images/post4-oop-basics.svg" | relative_url }})
+
+> **About the mentor referenced in this post:** Dr. Bilal Ahmad is a Professor at UET Lahore, Faisalabad Campus, and an expert in Artificial Intelligence, Machine Learning, and Deep Learning model training. His name is mentioned throughout this series as he was the instructor who guided and inspired this coursework.
+>
+> [LinkedIn](https://www.linkedin.com/in/drbilalphd/) · [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) · [Facebook](https://www.facebook.com/Dr.BilalAhm)
+
 
 Object-oriented programming was the topic I was most nervous about going into this semester, mostly because every senior student I had asked about it described it as "a different way of thinking" without ever explaining what that actually meant. Now that I have gone through it myself, I finally understand what they meant, and I want to document it here while the experience is still fresh.
 
@@ -25,20 +30,3 @@ Encapsulation took longer to appreciate because its benefits are not always visi
 By the end of this topic, I noticed a real shift in how I approached new problems. Instead of immediately thinking about variables and functions, I started asking myself what kind of "thing" I was modeling and what behaviors that thing should have. That shift in thinking, more than any specific syntax, is what I consider the real achievement of this stage of the semester.
 
 This post wraps up the core Python programming topics from this semester. The next post shifts gears completely, moving away from concepts and into the chaos of exam week itself, a stretch of the semester that tested patience far more than it tested programming skill.
-References and Professional Profiles
-
-Dr. Bilal Ahmad (Professor, UET Lahore Faisalabad Campus)
-
-[LinkedIn: ](https://www.linkedin.com/in/drbilalphd/)
-[Google Scholar:]( https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en)
-[Facebook:]( https://www.facebook.com/Dr.BilalAhm)
-Tags
-
-#ComputerEngineering
-#ProgrammingFundamentals
-#DatabaseSystems
-#PythonProgramming
-#ERModeling
-#SQLQueries
-#Normalization
-#RelationalAlgebra
