@@ -135,21 +135,6 @@ Welcome to my Computer Engineering journey.
     .hero-text h1 { font-size: 2.2rem; }
   }
 </style>
-
-<div class="hero">
-  <div class="hero-text">
-    <h1>Ahmad Raza</h1>
-    <p>Computer Engineering Portfolio & Personal Blog</p>
-  </div>
-</div>
-
-<div class="intro">
-  <h2>Welcome to My Engineering Journey</h2>
-  <p>
-    This blog is my digital footprint as a Computer Engineering student at UET Lahore, Faisalabad Campus —
-    a running record of what I learned this semester in Python and Database Systems, written as it actually happened,
-    mistakes included.
-  </p>
 </div>
 
 <div class="mentor-card">
