@@ -266,13 +266,8 @@ title: Home
   </div>
 </div>
 
-<h3 class="section-title">Latest Posts</h3>
-<div class="post-grid">
-  {% for post in site.posts %}
-  <a class="post-card" href="{{ post.url | relative_url }}">
-    <div class="thumb">
-      <img src="{{ post.image | default: 'https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=600&q=80' | relative_url }}" alt="{{ post.title }}">
-    </div>
+
+ </div>
     <div class="card-body">
       <span class="tag">{{ post.categories | first | default: 'Engineering' }}</span>
       <h3>{{ post.title }}</h3>
