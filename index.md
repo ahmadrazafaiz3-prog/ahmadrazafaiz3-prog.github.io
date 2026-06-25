@@ -20,7 +20,9 @@ I created this portfolio blog following the advice of Dr. Bilal Ahmad to build a
 ![First Day at UET Faisalabad](https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80)
 Welcome to my Computer Engineering journey.
 
----
+
+
+ ---
 layout: default
 title: Home
 ---
@@ -87,7 +89,7 @@ title: Home
     line-height: 1.65;
   }
 
-  /* Redesigned Mentor Card with Image Profile */
+  /* Redesigned Mentor Card with Your Provided Image Embedded */
   .mentor-card {
     max-width: 760px;
     margin: 0 auto 4rem auto;
@@ -186,7 +188,6 @@ title: Home
   }
 
   .post-card .thumb {
-    background: #f0f1f7;
     height: 170px;
     overflow: hidden;
   }
@@ -195,6 +196,20 @@ title: Home
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /* Fallback Brand Card style when no post image exists */
+  .post-card .fallback-thumb {
+    height: 170px;
+    background: linear-gradient(135deg, #1e1b4b 0%, #6c63ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    user-select: none;
   }
 
   .post-card .card-body {
@@ -253,7 +268,7 @@ title: Home
 </div>
 
 <div class="mentor-card">
-  <img class="mentor-avatar" src="{{ '/images/dr-bilal.png' | relative_url }}" alt="Dr. Bilal Ahmad">
+  <img class="mentor-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&h=256&q=80" alt="Dr. Bilal Ahmad">
   <div class="mentor-content">
     <h4>Academic Mentor</h4>
     <h3>Dr. Bilal Ahmad</h3>
@@ -266,13 +281,11 @@ title: Home
   </div>
 </div>
 
-
- </div>
-    <div class="card-body">
-      <span class="tag">{{ post.categories | first | default: 'Engineering' }}</span>
-      <h3>{{ post.title }}</h3>
-      <span class="date">📅 {{ post.date | date: "%b %-d, %Y" }}</span>
+<h3 class="section-title">Latest Posts</h3>
+<div class="post-grid">
+  {% for post in site.posts %}
+  <a class="post-card" href="{{ post.url | relative_url }}">
+    {% if post.image %}
+    <div class="thumb">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
     </div>
-  </a>
-  {% endfor %}
-</div>
