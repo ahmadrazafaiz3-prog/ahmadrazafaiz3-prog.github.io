@@ -87,14 +87,6 @@ Welcome to my Computer Engineering journey.
   <img src="{{ '/images/hero-banner.svg' | relative_url }}" alt="Ahmad Raza Blog Banner">
 </div>
 
-<div class="intro">
-  <h2>Welcome to My Engineering Journey</h2>
-  <p>
-    This blog is my digital footprint as a Computer Engineering student at UET Lahore, Faisalabad Campus —
-    a running record of what I learned this semester in Python and Database Systems, written as it actually happened,
-    mistakes included.
-  </p>
-</div>
 
 <div class="mentor-card">
   <p><strong>About the mentor referenced throughout this blog:</strong> Dr. Bilal Ahmad is a Professor at UET Lahore, Faisalabad Campus, and an expert in Artificial Intelligence, Machine Learning, and Deep Learning model training. His guidance and encouragement inspired this entire portfolio project.</p>
