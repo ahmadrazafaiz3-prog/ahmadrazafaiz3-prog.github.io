@@ -27,20 +27,20 @@ title: Home
 
 <style>
   :root {
-    --primary: #4f46e5;
-    --primary-hover: #4338ca;
-    --text-dark: #1e1b4b;
-    --text-muted: #475569;
-    --bg-light: #f8fafc;
-    --card-border: #e2e8f0;
+    --primary-color: #6c63ff;
+    --dark-blue: #1e1b4b;
+    --text-main: #2a2a45;
+    --text-muted: #555566;
+    --light-bg: #f6f7fb;
+    --border-color: #e6e6ef;
   }
 
-  /* Hero Section Redesign */
-  .hero-container {
+  /* Premium Banner Header */
+  .hero {
     position: relative;
     margin: -2rem -2rem 3rem -2rem;
-    height: 380px;
-    background: linear-gradient(135deg, rgba(30, 27, 75, 0.95), rgba(79, 70, 229, 0.85)), 
+    height: 320px;
+    background: linear-gradient(135deg, rgba(30, 27, 75, 0.9) 0%, rgba(108, 99, 255, 0.75) 100%), 
                 url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80');
     background-size: cover;
     background-position: center;
@@ -48,134 +48,128 @@ title: Home
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #ffffff;
-    padding: 0 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
   }
 
-  .hero-content h1 {
+  .hero-text h1 {
+    color: #ffffff;
     font-size: 2.8rem;
     font-weight: 800;
-    margin-bottom: 0.5rem;
-    letter-spacing: -0.02em;
-    text-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.03em;
   }
 
-  .hero-content p {
-    font-size: 1.25rem;
+  .hero-text p {
     color: #e2e8f0;
-    max-width: 600px;
-    margin: 0 auto;
+    font-size: 1.2rem;
+    margin: 0;
     font-weight: 300;
   }
 
-  /* Intro Section */
-  .intro-box {
-    max-width: 800px;
-    margin: 0 auto 3.5rem auto;
+  /* Intro Formatting */
+  .intro {
+    max-width: 760px;
+    margin: 0 auto 3rem auto;
     text-align: center;
     padding: 0 1rem;
   }
 
-  .intro-box h2 {
+  .intro h2 {
     font-size: 1.8rem;
-    color: var(--text-dark);
-    margin-bottom: 1rem;
+    color: var(--dark-blue);
+    margin-bottom: 0.8rem;
     font-weight: 700;
   }
 
-  .intro-box p {
+  .intro p {
     color: var(--text-muted);
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1.05rem;
+    line-height: 1.65;
   }
 
-  /* Premium Mentor Section */
-  .mentor-showcase {
-    max-width: 800px;
+  /* Redesigned Mentor Card with Image Profile */
+  .mentor-card {
+    max-width: 760px;
     margin: 0 auto 4rem auto;
     background: #ffffff;
-    border: 1px solid var(--card-border);
-    border-radius: 16px;
-    padding: 2rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 1.8rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.02);
     display: flex;
     gap: 1.5rem;
     align-items: center;
   }
 
-  .mentor-img {
-    width: 90px;
-    height: 90px;
+  .mentor-avatar {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid var(--primary);
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.15);
     flex-shrink: 0;
   }
 
-  .mentor-info h4 {
-    margin: 0 0 0.2rem 0;
-    font-size: 0.85rem;
+  .mentor-content {
+    flex-grow: 1;
+  }
+
+  .mentor-content h4 {
+    margin: 0 0 0.3rem 0;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    color: var(--primary);
+    color: var(--primary-color);
     letter-spacing: 0.05em;
+    font-weight: 700;
   }
 
-  .mentor-info h3 {
-    margin: 0 0 0.75rem 0;
-    font-size: 1.4rem;
-    color: var(--text-dark);
+  .mentor-content h3 {
+    margin: 0 0 0.6rem 0;
+    font-size: 1.35rem;
+    color: var(--dark-blue);
   }
 
-  .mentor-info p {
+  .mentor-content p {
     color: var(--text-muted);
     font-size: 0.95rem;
     line-height: 1.5;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 0;
   }
 
-  .mentor-links a {
-    margin-right: 16px;
+  .mentor-card .links a {
+    margin-right: 14px;
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--primary);
+    color: var(--primary-color);
     transition: color 0.2s;
   }
 
-  .mentor-links a:hover {
-    color: var(--primary-hover);
+  .mentor-card .links a:hover {
+    color: var(--dark-blue);
     text-decoration: underline;
   }
 
-  /* Grid Layout for Posts */
-  .section-heading {
+  /* Section Title styling */
+  .section-title {
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
+    margin: 0 0 2rem 0;
+    color: var(--dark-blue);
     font-weight: 700;
-    margin-bottom: 2rem;
-    color: var(--text-dark);
-    position: relative;
   }
 
-  .section-heading::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 4px;
-    background: var(--primary);
-    margin: 0.5rem auto 0 auto;
-    border-radius: 2px;
-  }
-
+  /* Grid and Cards for Dynamic Posts */
   .post-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    gap: 28px;
     margin-bottom: 4rem;
   }
 
   .post-card {
-    border: 1px solid var(--card-border);
+    border: 1px solid var(--border-color);
     border-radius: 12px;
     overflow: hidden;
     background: #fff;
@@ -188,100 +182,96 @@ title: Home
 
   .post-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(79, 70, 229, 0.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
   }
 
   .post-card .thumb {
-    height: 180px;
+    background: #f0f1f7;
+    height: 170px;
     overflow: hidden;
-    background: #f1f5f9;
   }
 
   .post-card .thumb img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-
-  .post-card:hover .thumb img {
-    transform: scale(1.04);
   }
 
   .post-card .card-body {
-    padding: 1.25rem;
+    padding: 18px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 
   .post-card .card-body .tag {
+    display: inline-block;
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--primary);
+    color: var(--primary-color);
     font-weight: 700;
     margin-bottom: 8px;
   }
 
   .post-card .card-body h3 {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     margin: 0 0 10px 0;
     line-height: 1.4;
-    color: var(--text-dark);
+    color: var(--dark-blue);
   }
 
   .post-card .card-body .date {
     font-size: 0.85rem;
-    color: #64748b;
+    color: #999;
     margin-top: auto;
   }
 
-  @media (max-width: 600px) {
-    .hero-container { height: 280px; }
-    .hero-content h1 { font-size: 2rem; }
-    .mentor-showcase { flex-direction: column; text-align: center; }
+  @media (max-width: 640px) {
+    .mentor-card {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-text h1 { font-size: 2.2rem; }
   }
 </style>
 
-<div class="hero-container">
-  <div class="hero-content">
+<div class="hero">
+  <div class="hero-text">
     <h1>Ahmad Raza</h1>
     <p>Computer Engineering Portfolio & Personal Blog</p>
   </div>
 </div>
 
-<div class="intro-box">
+<div class="intro">
   <h2>Welcome to My Engineering Journey</h2>
   <p>
-    This blog serves as my official digital footprint at <strong>UET Lahore, Faisalabad Campus</strong>. 
-    Inside, you will find a raw, running documentation of my engineering laboratory discoveries, deep dives into Python data analysis, 
-    and Database Systems architectures—built systematically as milestones along my degree track.
+    This blog is my digital footprint as a Computer Engineering student at UET Lahore, Faisalabad Campus —
+    a running record of what I learned this semester in Python and Database Systems, written as it actually happened,
+    mistakes included.
   </p>
 </div>
 
-<div class="mentor-showcase">
-  <img class="mentor-img" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Dr. Bilal Ahmad Blueprint Profile">
-  <div class="mentor-info">
+<div class="mentor-card">
+  <img class="mentor-avatar" src="{{ '/images/dr-bilal.png' | relative_url }}" alt="Dr. Bilal Ahmad">
+  <div class="mentor-content">
     <h4>Academic Mentor</h4>
     <h3>Dr. Bilal Ahmad</h3>
-    <p>
-      Professor at UET Lahore, Faisalabad Campus. Specialist in Artificial Intelligence, Machine Learning, and Deep Learning engineering frameworks. His curriculum guidance holds high influence over the practical engineering logs detailed in this portal.
+    <p>Professor at UET Lahore, Faisalabad Campus. Expert in Artificial Intelligence, Machine Learning, and Deep Learning model training. His guidance and encouragement inspired this entire portfolio project.</p>
+    <p class="links">
+      <a href="https://www.linkedin.com/in/drbilalphd/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.facebook.com/Dr.BilalAhm" target="_blank" rel="noopener">Facebook</a>
     </p>
-    <div class="mentor-links">
-      <a href="https://www.linkedin.com/in/drbilalphd/" target="_blank" rel="noopener">🔗 LinkedIn</a>
-      <a href="https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en" target="_blank" rel="noopener">🎓 Scholar</a>
-      <a href="https://www.facebook.com/Dr.BilalAhm" target="_blank" rel="noopener">🌐 Facebook</a>
-    </div>
   </div>
 </div>
 
-<h3 class="section-heading">Latest Academic Logs</h3>
+<h3 class="section-title">Latest Posts</h3>
 <div class="post-grid">
   {% for post in site.posts %}
   <a class="post-card" href="{{ post.url | relative_url }}">
     <div class="thumb">
-      <img src="{{ post.thumbnail | default: 'https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=600&q=80' | relative_url }}" alt="{{ post.title }}">
+      <img src="{{ post.image | default: 'https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=600&q=80' | relative_url }}" alt="{{ post.title }}">
     </div>
     <div class="card-body">
       <span class="tag">{{ post.categories | first | default: 'Engineering' }}</span>
@@ -291,6 +281,3 @@ title: Home
   </a>
   {% endfor %}
 </div>
-
-
-
