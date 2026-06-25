@@ -34,21 +34,8 @@ This blog documents my learning journey as a Computer Engineering student. The e
 
 **Dr. Bilal Ahmad (Professor, UET Lahore Faisalabad Campus)**
 
-* LinkedIn: https://www.linkedin.com/in/drbilalphd/
-* Google Scholar: https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en
-* Facebook: https://www.facebook.com/Dr.BilalAhm
+[* LinkedIn:]( https://www.linkedin.com/in/drbilalphd/)
+[* Google Scholar:]( https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en)
+[* Facebook:]( https://www.facebook.com/Dr.BilalAhm)
 
-### Tags
-
-#ComputerEngineering
-#ProgrammingFundamentals
-#DatabaseSystems
-#PythonProgramming
-#ERModeling
-#SQLQueries
-#Normalization
-#RelationalAlgebra
-#UETFaisalabad
-#DrBilalAhmad
-#LearningJourney
-#GitHubPortfolio
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/assets/images/uet-first-day.jpg" alt="UET Faisalabad First Day" width="100%">
