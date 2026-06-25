@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starting Database Systems: Why Keys Matter More Than I Expected"
+title: "database system keys"
 date: 2026-02-02 09:00:00 +0500
 categories: [database, semester-2]
 tags: [database, semester-2]
