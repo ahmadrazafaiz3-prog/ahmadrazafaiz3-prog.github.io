@@ -17,9 +17,9 @@ I created this portfolio blog following the advice of Dr. Bilal Ahmad to build a
 
 ![GitHub Work](/assets/images/github-work.jpg)
 
+![First Day at UET Faisalabad](https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80)
 Welcome to my Computer Engineering journey.
 
 {% for post in site.posts %}
 
-[{{ post.title }}]({{ post.url }})
-{% endfor %}
+
